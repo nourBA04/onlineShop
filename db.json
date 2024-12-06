@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "T-Shirt - Creamy",
+      "price": 19.99,
+      "category": "Clothing",
+      "color": "Creamy",
+      "image": "assets/images/t-shirt_creamy.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt - Grey",
+      "price": 19.99,
+      "category": "Clothing",
+      "color": "Grey",
+      "image": "assets/images/t-shirt_grey.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "T-Shirt - Black",
+      "price": 19.99,
+      "category": "Clothing",
+      "color": "Black",
+      "image": "assets/images/t-shirt_black.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Jeans - Grey",
+      "price": 49.99,
+      "category": "Clothing",
+      "color": "Grey",
+      "image": "assets/images/pants_grey.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Jeans - Black",
+      "price": 49.99,
+      "category": "Clothing",
+      "color": "Black",
+      "image": "assets/images/pants_black.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Jeans - Beige",
+      "price": 49.99,
+      "category": "Clothing",
+      "color": "Beige",
+      "image": "assets/images/pants_beige.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Sneakers - Black",
+      "price": 89.99,
+      "category": "Shoes",
+      "color": "Black",
+      "image": "assets/images/shoes_black.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Sneakers - Brown",
+      "price": 89.99,
+      "category": "Shoes",
+      "color": "Brown",
+      "image": "assets/images/shoes_brown.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Shirt - Navy",
+      "price": 57.99,
+      "category": "Clothing",
+      "color": "Navy",
+      "image": "assets/images/shirt_navy.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Shirt - Nude",
+      "price": 57.99,
+      "category": "Clothing",
+      "color": "Nude",
+      "image": "assets/images/shirt_nude.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Shirt - Grey",
+      "price": 57.99,
+      "category": "Clothing",
+      "color": "Grey",
+      "image": "assets/images/shirt_grey.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Watch - Green",
+      "price": 129.99,
+      "category": "Accessories",
+      "color": "Green",
+      "image": "assets/images/watch_green.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "Watch - Red",
+      "price": 129.99,
+      "category": "Accessories",
+      "color": "Red",
+      "image": "assets/images/watch_red.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "Watch - Black",
+      "price": 129.99,
+      "category": "Accessories",
+      "color": "Black",
+      "image": "assets/images/watch_black.jpeg"
+    }
+  ]
+}
