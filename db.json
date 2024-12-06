@@ -7,12 +7,29 @@
       "category": "Clothing",
       "image": "assets/images/pants_grey.jpeg",
       "variants": [
-        { "color": "Grey", "image": "assets/images/pants_grey.jpeg", "inStock": 10 },
-        { "color": "Black", "image": "assets/images/pants_black.jpeg", "inStock": 5 },
-        { "color": "Blue", "image": "assets/images/pant_blue.jpeg", "inStock": 7 },
-        { "color": "Red", "image": "assets/images/pant_red.jpeg", "inStock": 3 }
+        { 
+          "color": "Grey", 
+          "image": "assets/images/pants_grey.jpeg",
+          "inStock": 10 
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/pants_black.jpeg", 
+          "inStock": 5 
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/pant_blue.jpeg", 
+          "inStock": 7 
+        },
+        { 
+          "color": "Red", 
+          "image": "assets/images/pant_red.jpeg", 
+          "inStock": 3 
+        }
       ],
-      "details": ["50% cotton", "20% polyester", "30% wool"]
+      "details": ["50% cotton", "20% polyester", "30% wool"],
+      "inStock": 25
     },
     {
       "id": 2,
@@ -21,60 +38,102 @@
       "category": "Clothing",
       "image": "assets/images/tshirt_white.jpeg",
       "variants": [
-        { "color": "White", "image": "assets/images/tshirt_white.jpeg", "inStock": 15 },
-        { "color": "Black", "image": "assets/images/tshirt_black.jpeg", "inStock": 10 },
-        { "color": "Blue", "image": "assets/images/tshirt_blue.jpeg", "inStock": 8 }
+        { 
+          "color": "White", 
+          "image": "assets/images/tshirt_white.jpeg", 
+          "inStock": 12 
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/tshirt_black.jpeg", 
+          "inStock": 15 
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/tshirt_blue.jpeg", 
+          "inStock": 8 
+        },
+        { 
+          "color": "Green", 
+          "image": "assets/images/tshirt_green.jpeg", 
+          "inStock": 10 
+        }
       ],
-      "details": ["100% cotton"]
+      "details": ["100% cotton"],
+      "inStock": 45
     },
     {
       "id": 3,
-      "name": "Sneakers",
-      "price": 69.99,
-      "category": "Footwear",
-      "image": "assets/images/sneakers_white.jpeg",
-      "variants": [
-        { "color": "White", "image": "assets/images/sneakers_white.jpeg", "inStock": 12 },
-        { "color": "Black", "image": "assets/images/sneakers_black.jpeg", "inStock": 5 },
-        { "color": "Grey", "image": "assets/images/sneakers_grey.jpeg", "inStock": 6 }
-      ],
-      "details": ["Leather", "Rubber sole"]
-    },
-    {
-      "id": 4,
       "name": "Jacket",
       "price": 89.99,
       "category": "Clothing",
-      "image": "assets/images/jacket_black.jpeg",
+      "image": "assets/images/jacket_brown.jpeg",
       "variants": [
-        { "color": "Black", "image": "assets/images/jacket_black.jpeg", "inStock": 8 },
-        { "color": "Blue", "image": "assets/images/jacket_blue.jpeg", "inStock": 4 }
+        { 
+          "color": "Brown", 
+          "image": "assets/images/jacket_brown.jpeg", 
+          "inStock": 8 
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/jacket_black.jpeg", 
+          "inStock": 5 
+        },
+        { 
+          "color": "Gray", 
+          "image": "assets/images/jacket_gray.jpeg", 
+          "inStock": 7 
+        }
       ],
-      "details": ["80% polyester", "20% cotton"]
+      "details": ["100% polyester"],
+      "inStock": 20
+    },
+    {
+      "id": 4,
+      "name": "Sneakers",
+      "price": 59.99,
+      "category": "Footwear",
+      "image": "assets/images/sneakers_white.jpeg",
+      "variants": [
+        { 
+          "color": "White", 
+          "image": "assets/images/sneakers_white.jpeg", 
+          "inStock": 15 
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/sneakers_black.jpeg", 
+          "inStock": 10 
+        },
+        { 
+          "color": "Red", 
+          "image": "assets/images/sneakers_red.jpeg", 
+          "inStock": 5 
+        }
+      ],
+      "details": ["Leather and rubber"],
+      "inStock": 30
     },
     {
       "id": 5,
-      "name": "Hat",
-      "price": 15.99,
+      "name": "Backpack",
+      "price": 39.99,
       "category": "Accessories",
-      "image": "assets/images/hat_black.jpeg",
+      "image": "assets/images/backpack_black.jpeg",
       "variants": [
-        { "color": "Black", "image": "assets/images/hat_black.jpeg", "inStock": 20 },
-        { "color": "Red", "image": "assets/images/hat_red.jpeg", "inStock": 18 }
+        { 
+          "color": "Black", 
+          "image": "assets/images/backpack_black.jpeg", 
+          "inStock": 10 
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/backpack_blue.jpeg", 
+          "inStock": 8 
+        }
       ],
-      "details": ["100% wool"]
-    },
-    {
-      "id": 6,
-      "name": "Sunglasses",
-      "price": 29.99,
-      "category": "Accessories",
-      "image": "assets/images/sunglasses_black.jpeg",
-      "variants": [
-        { "color": "Black", "image": "assets/images/sunglasses_black.jpeg", "inStock": 25 },
-        { "color": "Silver", "image": "assets/images/sunglasses_silver.jpeg", "inStock": 10 }
-      ],
-      "details": ["UV protection", "Polarized lenses"]
+      "details": ["100% nylon"],
+      "inStock": 18
     }
   ]
 }
