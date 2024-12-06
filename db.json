@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Jeans",
+      "price": 49.99,
+      "category": "Clothing",
+      "image": "assets/images/pants_grey.jpeg",
+      "variants": [
+        { 
+          "color": "Grey", 
+          "image": "assets/images/pants_grey.jpeg", 
+          "inStock": 10
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/pants_black.jpeg", 
+          "inStock": 5
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/pant_blue.jpeg", 
+          "inStock": 8
+        },
+        { 
+          "color": "Red", 
+          "image": "assets/images/pant_red.jpeg", 
+          "inStock": 12
+        }
+      ],
+      "details": ["50% cotton", "20% polyester", "30% wool"]
+    },
+    {
+      "id": 2,
+      "name": "T-shirt",
+      "price": 19.99,
+      "category": "Clothing",
+      "image": "assets/images/tshirt_white.jpeg",
+      "variants": [
+        { 
+          "color": "White", 
+          "image": "assets/images/tshirt_white.jpeg", 
+          "inStock": 15
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/tshirt_black.jpeg", 
+          "inStock": 20
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/tshirt_blue.jpeg", 
+          "inStock": 7
+        }
+      ],
+      "details": ["100% cotton"]
+    },
+    {
+      "id": 3,
+      "name": "Sneakers",
+      "price": 89.99,
+      "category": "Footwear",
+      "image": "assets/images/sneakers_white.jpeg",
+      "variants": [
+        { 
+          "color": "White", 
+          "image": "assets/images/sneakers_white.jpeg", 
+          "inStock": 12
+        },
+        { 
+          "color": "Black", 
+          "image": "assets/images/sneakers_black.jpeg", 
+          "inStock": 9
+        },
+        { 
+          "color": "Grey", 
+          "image": "assets/images/sneakers_grey.jpeg", 
+          "inStock": 14
+        }
+      ],
+      "details": ["Leather upper", "Rubber sole", "Breathable fabric"]
+    },
+    {
+      "id": 4,
+      "name": "Jacket",
+      "price": 129.99,
+      "category": "Clothing",
+      "image": "assets/images/jacket_black.jpeg",
+      "variants": [
+        { 
+          "color": "Black", 
+          "image": "assets/images/jacket_black.jpeg", 
+          "inStock": 6
+        },
+        { 
+          "color": "Navy", 
+          "image": "assets/images/jacket_navy.jpeg", 
+          "inStock": 4
+        },
+        { 
+          "color": "Grey", 
+          "image": "assets/images/jacket_grey.jpeg", 
+          "inStock": 3
+        }
+      ],
+      "details": ["100% polyester", "Water-resistant", "Soft lining"]
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "price": 39.99,
+      "category": "Accessories",
+      "image": "assets/images/backpack_black.jpeg",
+      "variants": [
+        { 
+          "color": "Black", 
+          "image": "assets/images/backpack_black.jpeg", 
+          "inStock": 18
+        },
+        { 
+          "color": "Grey", 
+          "image": "assets/images/backpack_grey.jpeg", 
+          "inStock": 10
+        },
+        { 
+          "color": "Blue", 
+          "image": "assets/images/backpack_blue.jpeg", 
+          "inStock": 6
+        }
+      ],
+      "details": ["Waterproof", "Multiple compartments", "Durable"]
+    }
+  ]
+}
